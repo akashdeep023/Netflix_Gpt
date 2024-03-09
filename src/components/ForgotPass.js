@@ -38,6 +38,12 @@ const ForgotPass = () => {
 				toast.success("Message sent successfully");
 				e.target.disabled = false;
 				dispatch(setForgotPass(false));
+				const body = document.body;
+				const scrollY = body.style.top;
+				body.style.width = "";
+				body.style.position = "";
+				body.style.top = "";
+				window.scrollTo(0, parseInt(scrollY || "0") * -1);
 			})
 			.catch((error) => {
 				setErrorMsg("Error : " + error.code);
@@ -70,7 +76,7 @@ const ForgotPass = () => {
 							className="rounded-sm w-28 h-10 p-2 my-1 bg-green-600 hover:bg-green-700 active:bg-green-900 disabled:opacity-50 disabled:cursor-not-allowed disabled:bg-gray-800"
 							onClick={handleCancleBtn}
 						>
-							Cancle
+							Cancel
 						</button>
 						<button
 							type="submit"

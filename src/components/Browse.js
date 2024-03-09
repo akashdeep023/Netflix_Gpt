@@ -9,7 +9,6 @@ import { useSelector } from "react-redux";
 import GptContainer from "./GptContainer";
 import MovieInfo from "./MovieInfo";
 import Confirm from "./Confirm";
-// import Footer from "./Footer";
 
 const Browse = () => {
 	const gptSearchPage = useSelector((store) => store.gpt.gptSearchPage);
@@ -40,7 +39,6 @@ const Browse = () => {
 					<Confirm />
 				</div>
 			)}
-			{/* <Footer /> */}
 		</div>
 	);
 };

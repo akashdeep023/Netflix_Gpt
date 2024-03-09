@@ -54,7 +54,7 @@ const Confirm = () => {
 						onClick={haddleCancleBtn}
 						className="rounded-sm w-28 h-10 p-2 my-1 bg-green-600 hover:bg-green-700 active:bg-green-900 disabled:opacity-50 disabled:cursor-not-allowed disabled:bg-gray-800"
 					>
-						Cancle
+						Cancel
 					</button>
 					<button
 						onClick={haddleConfirmBtn}
