@@ -4,7 +4,9 @@ export const checkValidSignInFrom = (email, password) => {
 		email
 	);
 	const isPasswordValid =
-		/^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[a-zA-Z]).{8,}$/.test(password);
+		/^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[^((0-9)|(a-z)|(A-Z)|\s)]).{8,}$/.test(
+			password
+		);
 	if (!isEmailValid) return "Error: Email does not exist. Please try again.";
 	if (!isPasswordValid) return "Error: Incorrect password. Please try again.";
 	return null;
@@ -23,7 +25,7 @@ export const checkValidSignUpFrom = (name, email, password) => {
 	if (!/[A-Z]/.test(password))
 		return "Password must contain at least 1 uppercase letter.";
 	if (!/\d/.test(password)) return "Password must contain at least 1 number.";
-	if (!/[a-zA-Z\d@$!%*?&]/.test(password))
+	if (!/[^((0-9)|(a-z)|(A-Z)|\s)]/.test(password))
 		return "Password must contain at least 1 special characters.";
 	return null;
 };
