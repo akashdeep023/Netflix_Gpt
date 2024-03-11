@@ -100,8 +100,8 @@ Special thanks to Akshay Saini 🚀 for his invaluable guidance. His teaching ap
 
 ## Author
 
-Akash Deep
-Email: ad3500476@gmail.com
+Akash Deep \
+Email: ad3500476@gmail.com \
 LinkedIn : https://www.linkedin.com/in/akashdeep023/
 
 ## Project Link
