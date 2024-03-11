@@ -1,14 +1,14 @@
 # Netflix-GPT: Your Ultimate Movie Companion! 🚀
 
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=netflix-gpt&label=Netflix-Gpt%20views&color=0e75b6&style=flat" alt="netflix-gpt" /> </p>
-
 <p align="center">
   <b style="color: blue;  ">Visitor count</b>
   <br>
   <a style="" href="https://github.com/akashdeep023">
-  <img src="https://profile-counter.glitch.me/akashdeep023/count.svg" />
+  <img src="https://profile-counter.glitch.me/netflix-gpt/count.svg" />
   </a>
 </p>
+
+---
 
 Greetings, movie lovers! 👋 Welcome to Netflix-GPT, a state-of-the-art movie recommendation website powered by the GPT (Generative Pre-trained Transformer) model and Firebase.
 
