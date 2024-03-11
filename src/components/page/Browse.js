@@ -1,14 +1,14 @@
-import Header from "./Header";
-import useNowPlayingMovies from "../hooks/useNowPlayingMovies";
-import usePopularMovies from "../hooks/usePopularMovies";
-import useTopRatedMovies from "../hooks/useTopRatedMovies";
-import useUpcomingMovies from "../hooks/useUpcomingMovies";
-import MainContainer from "./MainContainer";
-import SecondaryContainer from "./SecondaryContainer";
+import Header from "../Header";
+import useNowPlayingMovies from "../../hooks/useNowPlayingMovies";
+import usePopularMovies from "../../hooks/usePopularMovies";
+import useTopRatedMovies from "../../hooks/useTopRatedMovies";
+import useUpcomingMovies from "../../hooks/useUpcomingMovies";
+import MainContainer from "../movies/MainContainer";
+import SecondaryContainer from "../movies/SecondaryContainer";
 import { useSelector } from "react-redux";
-import GptContainer from "./GptContainer";
-import MovieInfo from "./MovieInfo";
-import Confirm from "./Confirm";
+import GptContainer from "../gpt/GptContainer";
+import MovieInfo from "../movies/MovieInfo";
+import Confirm from "../subComponents/Confirm";
 
 const Browse = () => {
 	const gptSearchPage = useSelector((store) => store.gpt.gptSearchPage);

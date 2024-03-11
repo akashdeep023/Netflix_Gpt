@@ -1,25 +1,25 @@
 import React, { useRef } from "react";
-import Header from "./Header";
+import Header from "../Header.js";
 import { useState } from "react";
 import {
 	checkValidSignInFrom,
 	checkValidSignUpFrom,
-} from "../utils/validate.js";
+} from "../../utils/validate.js";
 
 import {
 	createUserWithEmailAndPassword,
 	signInWithEmailAndPassword,
 	updateProfile,
 } from "firebase/auth";
-import { auth } from "../utils/firebase.js";
-import { addUser } from "../utils/userSlice.js";
+import { auth } from "../../utils/firebase.js";
+import { addUser } from "../../utils/slices/userSlice.js";
 import { useDispatch, useSelector } from "react-redux";
-import Footer from "./Footer.js";
-import { APP_BG, AVATAR_LOGO } from "../utils/constants.js";
-import lang from "../utils/langConstants.js";
+import Footer from "../Footer.js";
+import { APP_BG, AVATAR_LOGO } from "../../utils/constants/constants.js";
+import lang from "../../utils/constants/langConstants.js";
 import { toast } from "react-toastify";
-import { setForgotPass } from "../utils/configSlice.js";
-import ForgotPass from "./ForgotPass.js";
+import { setForgotPass } from "../../utils/slices/configSlice.js";
+import ForgotPass from "../subComponents/ForgotPass.js";
 
 const Login = () => {
 	const [isSignIn, setIsSignIn] = useState(true);

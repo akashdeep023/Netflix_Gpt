@@ -1,9 +1,9 @@
 import React, { useRef, useState } from "react";
-import lang from "../utils/langConstants";
+import lang from "../../utils/constants/langConstants";
 import { useDispatch, useSelector } from "react-redux";
-import { setForgotPass } from "../utils/configSlice";
-import { checkValidForgotFrom } from "../utils/validate";
-import { auth } from "../utils/firebase";
+import { setForgotPass } from "../../utils/slices/configSlice";
+import { checkValidForgotFrom } from "../../utils/validate";
+import { auth } from "../../utils/firebase";
 import { sendPasswordResetEmail } from "firebase/auth";
 import { toast } from "react-toastify";
 

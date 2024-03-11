@@ -1,7 +1,7 @@
 import React from "react";
 import { useSelector } from "react-redux";
-import MoviesPlayer from "./MoviesPlayer";
-import Shimmer from "./Shimmer";
+import MoviesPlayer from "../movies/MoviesPlayer";
+import Shimmer from "../Shimmer";
 
 const GptContant = () => {
 	const { gptSearchNames, gptSearchMovies, gptSearchBtnClicked } =

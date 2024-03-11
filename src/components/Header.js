@@ -3,10 +3,10 @@ import { onAuthStateChanged } from "firebase/auth";
 import { auth } from "../utils/firebase";
 import { Link, useNavigate } from "react-router-dom";
 import { useDispatch, useSelector } from "react-redux";
-import { addUser, removeUser } from "../utils/userSlice";
-import { APP_LOGO } from "../utils/constants";
-import { toggleHomePage } from "../utils/gptSlice";
-import HeaderHide from "./HeaderHide";
+import { addUser, removeUser } from "../utils/slices/userSlice";
+import { APP_LOGO } from "../utils/constants/constants";
+import { toggleHomePage } from "../utils/slices/gptSlice";
+import HeaderHide from "./subComponents/HeaderHide";
 
 const Header = () => {
 	const navigate = useNavigate();

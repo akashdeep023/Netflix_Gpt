@@ -1,6 +1,9 @@
 import React from "react";
 import { useDispatch } from "react-redux";
-import { addMovieInfo, setMovieInfoTrailerPage } from "../utils/moviesSlice";
+import {
+	addMovieInfo,
+	setMovieInfoTrailerPage,
+} from "../../utils/slices/moviesSlice";
 
 const VideoTitle = ({ title, description, mainMovies }) => {
 	const dispatch = useDispatch();

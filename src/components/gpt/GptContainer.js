@@ -1,7 +1,7 @@
 import React from "react";
 import GptSearchBar from "./GptSearchBar";
 import GptContant from "./GptContant";
-import { APP_BG } from "../utils/constants";
+import { APP_BG } from "../../utils/constants/constants";
 
 const GptContainer = () => {
 	return (

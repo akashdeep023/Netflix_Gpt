@@ -1,10 +1,10 @@
 import React from "react";
 import { useDispatch } from "react-redux";
-import { setConfirm } from "../utils/configSlice";
+import { setConfirm } from "../../utils/slices/configSlice";
 import { toast } from "react-toastify";
 import { deleteUser } from "firebase/auth";
-import { removeUser } from "../utils/userSlice";
-import { auth } from "../utils/firebase";
+import { removeUser } from "../../utils/slices/userSlice";
+import { auth } from "../../utils/firebase";
 
 const Confirm = () => {
 	const dispatch = useDispatch();

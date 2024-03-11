@@ -1,7 +1,7 @@
 import React from "react";
-import { CDN_IMG_URL } from "../utils/constants";
+import { CDN_IMG_URL } from "../../utils/constants/constants";
 import { useDispatch } from "react-redux";
-import { addMovieInfo } from "../utils/moviesSlice";
+import { addMovieInfo } from "../../utils/slices/moviesSlice";
 
 const MoviesCard = ({ movies }) => {
 	const dispatch = useDispatch();

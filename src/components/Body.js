@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
-import Login from "./Login";
-import Browse from "./Browse";
+import Login from "./page/Login";
+import Browse from "./page/Browse";
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";

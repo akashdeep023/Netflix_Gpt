@@ -1,8 +1,8 @@
 import React from "react";
-import { LANGUAGE_CODE } from "../utils/constants";
+import { LANGUAGE_CODE } from "../utils/constants/constants";
 import { useDispatch, useSelector } from "react-redux";
-import { changeConfig } from "../utils/configSlice";
-import lang from "../utils/langConstants";
+import { changeConfig } from "../utils/slices/configSlice";
+import lang from "../utils/constants/langConstants";
 
 const Footer = () => {
 	const dispatch = useDispatch();

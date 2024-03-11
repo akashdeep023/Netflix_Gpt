@@ -1,10 +1,10 @@
 import { signOut } from "firebase/auth";
-import { auth } from "../utils/firebase";
+import { auth } from "../../utils/firebase";
 // import { useNavigate } from "react-router-dom";
 import { useDispatch, useSelector } from "react-redux";
-import { LANGUAGE_CODE } from "../utils/constants";
-import { toggleGptSarch } from "../utils/gptSlice";
-import { changeConfig, setConfirm } from "../utils/configSlice";
+import { LANGUAGE_CODE } from "../../utils/constants/constants";
+import { toggleGptSarch } from "../../utils/slices/gptSlice";
+import { changeConfig, setConfirm } from "../../utils/slices/configSlice";
 import { useEffect, useRef } from "react";
 import { toast } from "react-toastify";
 const HeaderHide = ({ setHeaderHide, imgRef }) => {

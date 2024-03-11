@@ -1,9 +1,12 @@
 import React, { useRef } from "react";
-import lang from "../utils/langConstants";
+import lang from "../../utils/constants/langConstants";
 import { useDispatch, useSelector } from "react-redux";
-import openai from "../utils/openai";
-import { MOVIES_OPTIONS } from "../utils/constants";
-import { setGptMoviesSearch, setGptSearchBtnClicked } from "../utils/gptSlice";
+import openai from "../../utils/openai";
+import { MOVIES_OPTIONS } from "../../utils/constants/constants";
+import {
+	setGptMoviesSearch,
+	setGptSearchBtnClicked,
+} from "../../utils/slices/gptSlice";
 
 const GptSearchBar = () => {
 	const langCode = useSelector((store) => store.config.lang);

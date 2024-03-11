@@ -1,8 +1,11 @@
 import React from "react";
 import { useDispatch, useSelector } from "react-redux";
-import { CDN_IMG_URL } from "../utils/constants";
-import { setMovieInfoTrailerPage, toggleMovieInfo } from "../utils/moviesSlice";
-import useMovieInfoTrailer from "../hooks/useMovieInfoTrailer";
+import { CDN_IMG_URL } from "../../utils/constants/constants";
+import {
+	setMovieInfoTrailerPage,
+	toggleMovieInfo,
+} from "../../utils/slices/moviesSlice";
+import useMovieInfoTrailer from "../../hooks/useMovieInfoTrailer";
 
 const MovieInfo = () => {
 	const { info } = useSelector((store) => store?.movies?.movieInfo);
