@@ -43,7 +43,7 @@ Follow these steps to get started with Netflix-GPT:
 
 1.  **Clone the Repository:**
     ```bash
-    git clone https://github.com/your-username/netflix-gpt.git
+    git clone https://github.com/akashdeep023/Netflix_Gpt.git
     cd netflix-gpt
     ```
 2.  **Install Dependencies:**
