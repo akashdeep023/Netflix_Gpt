@@ -106,9 +106,9 @@ LinkedIn : https://www.linkedin.com/in/akashdeep023/
 
 ## Project Link
 
--   https://netflix-gpt-jack.onrender.com/
--   https://netflix-gpt-jack.netlify.app/
--   https://netflix-gpt-jack.firebaseapp.com/
+-   [1st Live Link](https://netflix-gpt-jack.onrender.com/)
+-   [2st Live Link](https://netflix-gpt-jack.netlify.app/)
+-   [3st Live Link](https://netflix-gpt-jack.firebaseapp.com/)
 
 ## Thank You
 
