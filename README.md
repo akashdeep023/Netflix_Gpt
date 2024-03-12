@@ -22,6 +22,7 @@
 -   [Project Link](#project-link)
 -   [Thank You](#thank-you)
 -   [Creating a Netflix-gpt project involves several steps](#creating-a-netflix-gpt-project-involves-several-steps)
+-   [Ex- Image](#ex--image)
 
 ## Project Overview
 
@@ -154,3 +155,35 @@ Thank you for exploring Netflix-GPT! Your feedback is valuable. If you have any 
 -   Update Store with new movies Data
 -   Create Secondary container
 -   Add some styles
+
+---
+
+## Ex- Image
+
+**Home Page**
+
+**Footer Page**
+
+**SignUp Page**
+
+**LogIn Page**
+
+**Profile Page**
+
+**Update Prifile**
+
+**Confirmation Box**
+
+**Alert Msg**
+
+**Loader**
+
+**Create New Restaurant**
+
+**Show Page**
+
+**Edit Page**
+
+**Filter Page**
+
+### Thanks for visit... 😊😊😊
