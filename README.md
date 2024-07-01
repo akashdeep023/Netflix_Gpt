@@ -102,14 +102,9 @@ Special thanks to Akshay Saini 🚀 for his invaluable guidance. His teaching ap
 ## Author
 
 Akash Deep \
-Email: ad3500476@gmail.com \
+Email: contact.akashdeep023@gmail.com \
 LinkedIn : https://www.linkedin.com/in/akashdeep023/
 
-## Project Link
-
--   [1st Live Link](https://netflix-gpt-jack.onrender.com/)
--   [2st Live Link](https://netflix-gpt-jack.netlify.app/)
--   [3st Live Link](https://netflix-gpt-jack.firebaseapp.com/)
 
 ## Thank You
 
