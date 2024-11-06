@@ -10,7 +10,11 @@
 
 ---
 
+<a style="" href="https://netflix-gpt-jack.vercel.app/">
+  
 ![netflix-gpt](https://github.com/user-attachments/assets/9e253acb-ed38-4240-884a-53bcf10831d3)
+
+</a>
 
 ---
 
